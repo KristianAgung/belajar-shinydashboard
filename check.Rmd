@@ -1,0 +1,24 @@
+---
+title: "check"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+dt <- read.csv("country_centroids_az8.csv")
+```
+
+```{r}
+dt
+```
+```{r}
+glimpse(dt)
+```
+
+```{r}
+install.packages("pwr")
+```
+
